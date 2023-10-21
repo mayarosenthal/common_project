@@ -33,7 +33,7 @@ h3 {
 }
 
 p, span{
-    line-height:3cqh;
+    /* line-height:3cqh; */
     text-align: center;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 5px;
@@ -72,7 +72,7 @@ nav{
 
 nav a {
     background-color: whitesmoke;
-    border: solid, 5px, black;
+    /* border: solid 5px black; */
 }
 
 a{
