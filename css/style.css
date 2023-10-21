@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: xxx-large;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     color: #00008B;
@@ -13,13 +13,14 @@ h1 {
 }
 
 h2 {
-    font-size: x-large;
+    font-size: 25px;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-weight: bold;
     color:#0000B9;
-    padding-top: 20px;
+    padding-top: 35px;
     padding-bottom: 5px;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -31,8 +32,7 @@ h3 {
     padding-top: 10px;
 }
 
-p {
-    line-height:3cqh;
+p, span{
     text-align: center;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 5px;
@@ -52,8 +52,10 @@ img {
 }
 
 li {
-    display:inline-block;
-    margin-left: 50px;
+    display: block;
+    margin-left: auto;
+    text-align: center;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 span {
@@ -69,7 +71,6 @@ nav{
 
 nav a {
     background-color: whitesmoke;
-    border: solid, 5px, black;
 }
 
 a{
@@ -84,8 +85,8 @@ a{
     display: grid;
     border-radius: 25px;
     margin: auto;
-    width: 225px;
-    height: 150px;
+    width: 75%;
+    height: 75%;
 }
 
 .skip a{
@@ -129,6 +130,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 @media screen and (prefers-reduced-motion: reduce){
     .gif{
       display: none;
@@ -137,5 +139,4 @@ a{
     .static{
       display: block;
     }
-    
-  }
+}
