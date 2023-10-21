@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: xxx-large;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     color: #00008B;
@@ -21,7 +21,6 @@ h2 {
     padding-top: 35px;
     padding-bottom: 5px;
     text-transform: uppercase;
-    text-decoration: underline;
 }
 
 h3 {
@@ -133,6 +132,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 @media screen and (prefers-reduced-motion: reduce){
     .gif{
       display: none;
