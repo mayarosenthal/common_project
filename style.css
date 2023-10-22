@@ -9,7 +9,8 @@ h1 {
     text-align: center;
     color: #00008B;
     font-weight: bolder;
-    padding-bottom: 20px;
+    /* padding-bottom: 5px; */
+    padding-top: 20px;
 }
 
 h2 {
@@ -33,7 +34,6 @@ h3 {
 }
 
 p, span{
-    /* line-height:3cqh; */
     text-align: center;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 5px;
@@ -49,6 +49,8 @@ img {
     border-radius: 30px;
     align-items: center;
     display: grid;
+    animation-name: border_animation;
+    animation-duration: 3s;
     
 }
 
@@ -72,7 +74,6 @@ nav{
 
 nav a {
     background-color: whitesmoke;
-    /* border: solid 5px black; */
 }
 
 a{
@@ -94,6 +95,7 @@ a{
 .skip a{
     position: absolute;
     top: -40px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .skip a:focus{
@@ -107,16 +109,18 @@ a{
 
   a:hover{
     font-weight: bolder;
+    font-size: larger;
   }
 
  .current{
     font-weight: bolder;
+    font-size:larger;
   }
 
-.container{
+/* .container{
     display: grid;
     grid-template-columns: 1fr;
-}
+} */
 
 /* #honeyrock{
     display: grid;
@@ -133,6 +137,20 @@ a{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  } */
+
+@keyframes border_animation {
+    from {border-color: #4444FF;}
+    to {border-color: #FFFF33;}
+  }
+  
+
 @media screen and (prefers-reduced-motion: reduce){
     .gif{
       display: none;
@@ -141,4 +159,10 @@ a{
     .static{
       display: block;
     }
+
+    img{
+        animation:none;
+    }
+
+
 }
