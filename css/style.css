@@ -253,6 +253,7 @@ ol li::before {
 .dropdown-content{
     display: none;
 }
+}
 
 /* a:visited {
     color: purple;
